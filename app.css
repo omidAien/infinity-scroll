@@ -1,0 +1,42 @@
+body {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+
+main {
+    margin: 10px 30%;
+}
+
+main .photo-container img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+main .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-auto-height {
+    height: auto;
+}
+
+.loader-custom-height {
+    height: calc(100vh - 160px);
+}
+
+@media screen and (max-width:600px) {
+    header {
+        font-size: .65rem;
+    }
+}
